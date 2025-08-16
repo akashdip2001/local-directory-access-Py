@@ -1,4 +1,4 @@
-## **Elevate it into a proper backend project with some unique functionality + Java touch**, so it looks like a full-fledged system rather than just a quick trick.
+## **Elevate it into a proper backend project with some unique functionality + `Java`**.
 
 <img width="1536" height="1024" alt="ChatGPT Image Aug 17, 2025, 02_10_53 AM" src="https://github.com/user-attachments/assets/27a39e95-8ada-41c8-97e6-1863ac9267e0" />
 
