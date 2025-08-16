@@ -11,7 +11,7 @@ This lets your phone (or any device on the same Wi-Fi / LAN) access your compute
 Open **Command Prompt (cmd)** on Windows and type:
 
 ```bash
-ipconfig
+ipconfig ✅
 ```
 
 Look for:
@@ -29,13 +29,13 @@ That `192.168.x.x` is your **computer’s LAN IP**.
 
 ## 🔹 Step 2: Run Python HTTP Server
 
-Now go to the folder you want to share and open a terminal (cmd or PowerShell).
+> ✅ Now go to the folder you want to share and open a terminal (cmd or PowerShell).
 Run this command:
 
 ### For Python 3.x
 
 ```bash
-python -m http.server 8000
+python -m http.server 8000 ✅
 ```
 
 or if you want to specify directory explicitly:
@@ -54,7 +54,7 @@ This starts a server on **port 8000**.
 * Open a browser on your phone and type:
 
 ```
-http://<your_PC_IP>:8000
+http://<your_PC_IP>:8000 ✅
 ```
 
 Example:
@@ -64,6 +64,11 @@ http://192.168.1.47:8000
 ```
 
 Now you’ll see a **directory listing** like in your screenshot. You can click videos, images, or files — they’ll stream directly!
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a746ee40-a9f4-4b19-863d-a422fb683f66" width="69%" /> 
+  <img src="https://github.com/user-attachments/assets/4810e025-bfaa-423f-ba46-b6cd54b490a2" width="24%" /> 
+</p>
 
 ---
 
@@ -109,10 +114,5 @@ Then open:
 ```
 http://<your_PC_IP>:8000
 ```
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/a746ee40-a9f4-4b19-863d-a422fb683f66" width="69%" /> 
-  <img src="https://github.com/user-attachments/assets/4810e025-bfaa-423f-ba46-b6cd54b490a2" width="24%" /> 
-</p>
 
 ---
